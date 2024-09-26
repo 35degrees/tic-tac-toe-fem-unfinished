@@ -1,0 +1,115 @@
+unction cpuWins() {
+	tiles.forEach((tile) => (tile.style.pointerEvents = 'none'))
+
+	tallies.forEach((tally, i) => {
+		if (tally === -2) {
+			switch (i) {
+				case 0:
+					tile1.innerText = cpuSymbol
+					tile2.innerText = cpuSymbol
+					tile3.innerText = cpuSymbol
+					tile1.style.color = 'var(--charcoal-grey)'
+					tile2.style.color = 'var(--charcoal-grey)'
+					tile3.style.color = 'var(--charcoal-grey)'
+					tile1.style.backgroundColor = 'var(--medium-orange)'
+					tile2.style.backgroundColor = 'var(--medium-orange)'
+					tile3.style.backgroundColor = 'var(--medium-orange)'
+					console.log('You won!')
+					gameEnd()
+					break
+				case 1:
+					tile5.innerText = cpuSymbol
+					tile4.innerText = cpuSymbol
+					tile6.innerText = cpuSymbol
+					tile4.style.color = 'var(--charcoal-grey)'
+					tile5.style.color = 'var(--charcoal-grey)'
+					tile6.style.color = 'var(--charcoal-grey)'
+					tile4.style.backgroundColor = 'var(--medium-orange)'
+					tile5.style.backgroundColor = 'var(--medium-orange)'
+					tile6.style.backgroundColor = 'var(--medium-orange)'
+					console.log('You won!')
+					gameEnd()
+					break
+				case 2:
+					tile8.innerText = cpuSymbol
+					tile7.innerText = cpuSymbol
+					tile9.innerText = cpuSymbol
+					tile7.style.color = 'var(--charcoal-grey)'
+					tile8.style.color = 'var(--charcoal-grey)'
+					tile9.style.color = 'var(--charcoal-grey)'
+					tile7.style.backgroundColor = 'var(--medium-orange)'
+					tile8.style.backgroundColor = 'var(--medium-orange)'
+					tile9.style.backgroundColor = 'var(--medium-orange)'
+					console.log('You won!')
+					gameEnd()
+					break
+
+				case 3:
+					tile1.innerText = cpuSymbol
+					tile4.innerText = cpuSymbol
+					tile7.innerText = cpuSymbol
+					tile1.style.color = 'var(--charcoal-grey)'
+					tile4.style.color = 'var(--charcoal-grey)'
+					tile7.style.color = 'var(--charcoal-grey)'
+					tile1.style.backgroundColor = 'var(--medium-orange)'
+					tile4.style.backgroundColor = 'var(--medium-orange)'
+					tile7.style.backgroundColor = 'var(--medium-orange)'
+					console.log('You won!')
+					gameEnd()
+					break
+				case 4:
+					tile5.innerText = cpuSymbol
+					tile2.innerText = cpuSymbol
+					tile8.innerText = cpuSymbol
+					tile5.style.color = 'var(--charcoal-grey)'
+					tile2.style.color = 'var(--charcoal-grey)'
+					tile8.style.color = 'var(--charcoal-grey)'
+					tile5.style.backgroundColor = 'var(--medium-orange)'
+					tile2.style.backgroundColor = 'var(--medium-orange)'
+					tile8.style.backgroundColor = 'var(--medium-orange)'
+					console.log('You won!')
+					gameEnd()
+					break
+				case 5:
+					tile9.innerText = cpuSymbol
+					tile6.innerText = cpuSymbol
+					tile3.innerText = cpuSymbol
+					tile6.style.color = 'var(--charcoal-grey)'
+					tile9.style.color = 'var(--charcoal-grey)'
+					tile3.style.color = 'var(--charcoal-grey)'
+					tile6.style.backgroundColor = 'var(--medium-orange)'
+					tile9.style.backgroundColor = 'var(--medium-orange)'
+					tile3.style.backgroundColor = 'var(--medium-orange)'
+					console.log('You won!')
+					gameEnd()
+					break
+				case 6:
+					tile5.innerText = cpuSymbol
+					tile1.innerText = cpuSymbol
+					tile9.innerText = cpuSymbol
+					tile1.style.color = 'var(--charcoal-grey)'
+					tile5.style.color = 'var(--charcoal-grey)'
+					tile9.style.color = 'var(--charcoal-grey)'
+					tile1.style.backgroundColor = 'var(--medium-orange)'
+					tile5.style.backgroundColor = 'var(--medium-orange)'
+					tile9.style.backgroundColor = 'var(--medium-orange)'
+					console.log('You won!')
+					gameEnd()
+					break
+				case 7:
+					tile5.innerText = cpuSymbol
+					tile7.innerText = cpuSymbol
+					tile3.innerText = cpuSymbol
+					tile5.style.color = 'var(--charcoal-grey)'
+					tile7.style.color = 'var(--charcoal-grey)'
+					tile3.style.color = 'var(--charcoal-grey)'
+					tile5.style.backgroundColor = 'var(--medium-orange)'
+					tile7.style.backgroundColor = 'var(--medium-orange)'
+					tile3.style.backgroundColor = 'var(--medium-orange)'
+					console.log('You won!')
+					gameEnd()
+					break
+			}
+		}
+	})
+}

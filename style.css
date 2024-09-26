@@ -133,3 +133,12 @@
 		transform: translateY(1px) scale(0.992);
 	}
 }
+
+.note {
+	position: absolute;
+	bottom: 18%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	width: 400px;
+	text-align: center;
+}
